@@ -57,23 +57,23 @@
         <h2>Javascript</h2>
 
         <ul>
-          <li>JavaScript is case sensitive. This means 'myVariable' is not the same as 'myvariable'. </li>
-          <li>// This is a comment (in Javascript & CSS). This can be placed on its own line, or right after some code.</li>
-          <li>A multi-line comment will comment out multiple lines and is denoted with <strong>/*</strong> to begin the comment, and <strong>*/</strong> to end the comment.</li>
-          <li>Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are seven fundamental data types: <em>Number, String, Boolean, Null, Undefined, Symbol,</em> & <em>Object.</em></li>
-          <li>For types, Conceptually, undefined indicates the absence of a value, while null indicates the absence of an object (which could also make up an excuse for typeof null === "object").</li>
-          <li>An <strong>operator</strong> (+, -, *, /, and %) is a character that performs a task in our code. JavaScript has several built-in arithmetic operators, that allow us to perform mathematical calculations on numbers.</li>
-          <li>Operators aren’t just for numbers! When a + operator is used on two strings, it appends the right string to the left string</li>
-          <li>console.log('no' + 'space'); // Prints 'nospace'</li>
-          <li>console.log('Hello'.length); // Prints 5. The ' . ' is another operator! We call it the dot operator. In the example here, the value saved to the length property is retrieved from the instance of the string, 'Hello'. The program prints 5 to the console, because Hello has five characters in it.</li>
-          <li> <strong>Methods</strong> are actions we can perform. Data types have access to specific methods that allow us to handle instances of that data type. JavaScript provides a number of string methods.</li>
-          <li>We call, or use, these methods by appending an instance with: <em>a period</em>(the dot operator),<em>the name of the method, opening and closing parenthesis. </em>E.g. <strong>'example string'.methodName()</strong>. When we use console.log() we’re calling the .log() method on the console object.</li>
-          <li>a variable is simply a named container that allows us to store data in our code.</li>
-          <li>An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
-          <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
-          <li>Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number. </li>
-          <li><strong>Math.ceil()</strong> returns the smallest integer (whole number) greater than or equal to 'x'.</li>
-          <li><strong>Math.random()</strong> generates a random number between 0 and 1. <strong>Math.floor()</strong> rounds the number down to the nearest whole number.</li>
+         <li>JavaScript is case sensitive. This means 'myVariable' is not the same as 'myvariable'. </li>
+         <li><strong>// This is a comment</strong> (in Javascript & CSS). This can be placed on its own line, or right after some code.</li>
+         <li>A multi-line comment will comment out multiple lines and is denoted with <strong>/*</strong> to begin the comment, and <strong>*/</strong> to end the comment.</li>
+         <li>Data types are the classifications we give to the different kinds of data that we use in programming. In JavaScript, there are seven fundamental data types: <em>Number, String, Boolean, Null, Undefined, Symbol,</em> & <em>Object.</em></li>
+         <li>For types, Conceptually, undefined indicates the absence of a value, while null indicates the absence of an object (which could also make up an excuse for typeof null === "object").</li>
+         <li>An <strong>operator</strong> (+, -, *, /, and %) is a character that performs a task in our code. JavaScript has several built-in arithmetic operators, that allow us to perform mathematical calculations on numbers.</li>
+         <li>Operators aren’t just for numbers! When a + operator is used on two strings, it appends the right string to the left string</li>
+         <li>console.log('no' + 'space'); // Prints 'nospace'</li>
+         <li>console.log('Hello'.length); // Prints 5. The ' . ' is another operator! We call it the dot operator. In the example here, the value saved to the length property is retrieved from the instance of the string, 'Hello'. The program prints 5 to the console, because Hello has five characters in it.</li>
+         <li> <strong>Methods</strong> are actions we can perform. Data types have access to specific methods that allow us to handle instances of that data type. JavaScript provides a number of string methods.</li>
+         <li>We call, or use, these methods by appending an instance with: <em>a period</em>(the dot operator),<em>the name of the method, opening and closing parenthesis. </em>E.g. <strong>'example string'.methodName()</strong>. When we use console.log() we’re calling the .log() method on the console object.</li>
+         <li>a variable is simply a named container that allows us to store data in our code.</li>
+         <li>An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+         <li>A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+         <li>Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number. </li>
+         <li><strong>Math.ceil()</strong> returns the smallest integer (whole number) greater than or equal to 'x'.</li>
+         <li><strong>Math.random()</strong> generates a random number between 0 and 1. <strong>Math.floor()</strong> rounds the number down to the nearest whole number.</li>
          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number">Number.isInteger()</a> determines whether the passed value is an integer.</li>
          <li>We can insert, or <em>interpolate</em>, variables into strings using <em>template literals</em>.</li> 
          <li>A <strong>template literal</strong> is wrapped by backticks ` (this key is usually located on the top of your keyboard, left of the 1 key). Inside the template literal, you’ll see a placeholder, ${myVar}. The value of myVar is inserted into the template literal. When we interpolate `I own a pet ${myPet}.`, the output we print is the string: 'I own a pet cat.'</li>
@@ -90,9 +90,17 @@
          <li> - Inside the block, { ... }, there are multiple cases. The case keyword checks if the expression matches the specified value that comes after it. The value following the first case is 'tomato'. If the value of groceryItem equalled 'tomato', that case‘s console.log() would run.</li>
          <li> - The <em>break keyword</em> tells the computer to exit the block and not execute any more code or check any other cases inside the code block.</li>
          <li> - At the end of each switch statement, there is a <em>default statement</em>. If none of the cases are true, then the code in the default statement will run.</li>
-         <li>A <strong>>function declaration</strong> consists of: (1) The function keyword, (2) The name of the function, or its identifier, followed by parentheses, & (3) A function body, or the block of statements required to perform a specific task, enclosed in the function’s curly brackets, { }.</li>
+         <li>A <strong>function declaration</strong> consists of: (1) The function keyword, (2) The name of the function, or its identifier, followed by parentheses, & (3) A function body, or the block of statements required to perform a specific task, enclosed in the function’s curly brackets, { }.</li>
          <li>A function declaration binds a function to an identifier. The code inside a function body runs, or executes, only when the function is <em>called.</em></li>
          <li>To call a function in your code, you type the function name followed by parentheses. Ex: calling "sayThanks();" would run wahatever I declared when first coding <strong>function sayThanks() {};</strong>A <em>function call</em> executes the function body, or all of the statements between the curly braces in the function declaration.</li>
+         <li>When declaring a function, we can specify its <strong>parameters</strong>. Parameters allow functions to accept input(s) and perform a task using the input(s). We use parameters as placeholders for information that will be passed to the function when it is called</li>
+         <li>The values that are passed to the function when it is called are called <strong>arguments</strong>. Arguments can be passed to the function as values or variables.</li>
+         <li>To pass back information from the function call, we use a return statement. To create a return statement, we use the return keyword followed by the value that we wish to return. Like we saw above, if the value is omitted, undefined is returned instead. When a return statement is used in a function body, the execution of the function is stopped and the code that follows it will not be executed.</li>
+         <li>To declare a <strong>function expression:</strong> Declare a variable to make the variable’s name be the name, or identifier, of your function. Assign as that variable’s value an anonymous function created by using the function keyword followed by a set of parentheses with possible parameters. Then a set of curly braces that contain the function body.</li>
+         <li><strong>Arrow functions</strong> remove the need to type out the keyword function every time you need to create a function. Instead, you first include the parameters inside the ( ) and then add an arrow => that points to the function body surrounded in { }.</li>
+         <li>An<strong> implicit return</strong> is a function body composed of a single-line block does not need curly braces. Without the curly braces, whatever that line evaluates will be automatically returned. The contents of the block should immediately follow the arrow => and the return keyword can be removed.</li> 
+         <li><strong>Scope</strong> defines where variables can be accessed or referenced. We think about scope in relation to blocks because variables can exist either outside of or within these blocks. In <em>global scope</em>, variables are declared outside of blocks. These variables are called global variables. Because global variables are not bound inside a block, they can be accessed by any code in the program, including code in blocks.</li>
+         <li>When a variable is defined inside a block, it is only accessible to the code within the curly braces {}. We say that variable has <em>block scope</em> because it is only accessible to the lines of code within that block. Variables that are declared with block scope are known as <em>local variables</em> because they are only available to the code that is part of the same block.</li>
          <li>Since control flow dictates that JavaScript files are executed from top to bottom, order matters.</li>
          <li>Control flow is the order in which a computer executes code in a script.</li>git pull 
         </ul>
