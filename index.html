@@ -33,8 +33,18 @@
         <h2>CSS</h2>
 
         <ul>
-          <li>A margin indicates how much space we want around the outside of an element</li>
-          <li>A padding indicates how much space we want around the content inside an element</li>
+          <li>A <strong>margin</strong> indicates how much space we want around the outside of an element</li>
+          <li>A <strong>padding</strong> indicates how much space we want around the content inside an element</li>
+          <li><strong>Selector:</strong> The beginning of the ruleset used to target the element that will be styled.</li>
+          <li><strong>Declaration Block:</strong> The code in-between (and including) the curly braces ({ }) that contains the CSS declaration(s).</li>
+          <li><strong>Declaration:</strong> The group name for a property and value pair that applies a style to the selected element.</li>
+          <li><strong>Property:</strong> The first part of the declaration that signifies what visual characteristic of the element is to be modified.</li>
+          <li><strong>Value:</strong> The second part of the declaration that signifies the value of the property.</li>
+          <li style='color: green;'>Although CSS is a different language than HTML, it’s possible to write CSS code directly within HTML code using <em>inline styles</em>(applied on this line of html).</li>
+          <li>HTML allows you to write CSS code in its own dedicated section with a < style > element nested inside of the < head > element. The CSS code inside the < style > element is often referred to as an <em>internal stylesheet</em>.</li>
+          <li>You can use the <strong>< link ></strong> element to link HTML and CSS files together. The < link > element must be placed within the head of the HTML file. It is a self-closing tag and requires the following attributes: <strong>href</strong> and <strong>rel</strong></li> 
+          <li><strong>href</strong> — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.</li>
+          <li><strong>rel</strong> — this attribute describes the relationship between the HTML file and the CSS file. Because you are linking to a stylesheet, the value should be set to <em>stylesheet</em></li>
         </ul>
 
       </section>
@@ -101,6 +111,10 @@
          <li>An<strong> implicit return</strong> is a function body composed of a single-line block does not need curly braces. Without the curly braces, whatever that line evaluates will be automatically returned. The contents of the block should immediately follow the arrow => and the return keyword can be removed.</li> 
          <li><strong>Scope</strong> defines where variables can be accessed or referenced. We think about scope in relation to blocks because variables can exist either outside of or within these blocks. In <em>global scope</em>, variables are declared outside of blocks. These variables are called global variables. Because global variables are not bound inside a block, they can be accessed by any code in the program, including code in blocks.</li>
          <li>When a variable is defined inside a block, it is only accessible to the code within the curly braces {}. We say that variable has <em>block scope</em> because it is only accessible to the lines of code within that block. Variables that are declared with block scope are known as <em>local variables</em> because they are only available to the code that is part of the same block.</li>
+         <li><strong>Arrays</strong> are JavaScript’s way of making lists. Like lists, arrays are ordered, meaning each item has a numbered position.</li>
+         <li>Arrays in JavaScript are <em>zero-indexed</em>, meaning the positions start counting from 0 rather than 1. Therefore, the first item in an array will be at position 0. </li>
+         <li>There are built-in <strong>JavaScript methods</strong> that make working with arrays easier. These methods are specifically called on arrays to make common tasks, like adding and removing elements, more straightforward. One method, <strong>.push()</strong>, allows us to add items to the end of an array. Ex of use: <strong>arrayName.push('item 3', 'item 4');</strong> This adds 'item 3' and 'item 4' elements to the end of the array arrayName.</li>
+         <li>Another array method, <strong>.pop()</strong>, removes the last item of an array.</li>
          <li>Since control flow dictates that JavaScript files are executed from top to bottom, order matters.</li>
          <li>Control flow is the order in which a computer executes code in a script.</li>git pull 
         </ul>
